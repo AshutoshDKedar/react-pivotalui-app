@@ -14,9 +14,9 @@ class App extends Component {
 
   render() {
     return (
-      <div>
-        
-      </div>
+      <React.Fragment>
+        <PivotalUI />
+      </React.Fragment>
     );
   }
 }
