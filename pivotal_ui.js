@@ -10,19 +10,19 @@ class PivotalUI extends Component{
     return(
       <React.Fragment>
         <div className="bg-dark-gray pal">
-          <ThemeProvider theme="dark">
+          <ThemeProvider theme="light">
             <div>
               <div class="grid grid-nogutter grid-show">
-                <div class="col">
+                <div className="col">
                   <DefaultButton /*flat="true" fullWidth="true"*/ small icon={<Icon src="add"/>}>Click Me</DefaultButton>
                 </div>
-                <div class="col">
+                <div className="col">
                   <PrimaryButton href="" /*flat="true" fullWidth="true"*/ small>Click Me</PrimaryButton>
                 </div>
-                <div class="col">
+                <div className="col">
                   <DangerButton /*flat="true" fullWidth="true"*/ small>Click Me</DangerButton>
                 </div>
-                <div class="col">
+                <div className="col">
                   <BrandButton /*flat="true" fullWidth="true"*/ small>Click Me</BrandButton>   
                 </div>
               </div>
