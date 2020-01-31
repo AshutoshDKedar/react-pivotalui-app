@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
-import {DefaultButton} from 'pivotal-ui/react/buttons';
+import {DefaultButton, PrimaryButton, DangerButton, BrandButton} from 'pivotal-ui/react/buttons';
 
 class PivotalUI extends Component{
   render(){
     return(
-      <DefaultButton /*flat="true"*/ fullWidth="true" small>Click Me</DefaultButton>
-    )
+      <React.Fragment>
+        <DefaultButton /*flat="true"*/ fullWidth="true" small icon={<Icon src="add"/>}>Click Me</DefaultButton>
+        <PrimaryButton /*flat="true"*/ fullWidth="true" small>Click Me</PrimaryButton>
+        <DangerButton /*flat="true"*/ fullWidth="true" small>Click Me</DangerButton>
+        <BrandButton /*flat="true"*/ fullWidth="true" small>Click Me</BrandButton>    
+      </React.Fragment>
+    );
   }
 }
 
