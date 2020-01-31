@@ -12,7 +12,7 @@ class PivotalUI extends Component{
         <div className="bg-dark-gray pal">
           <ThemeProvider theme="light">
             <div>
-              <div class="grid grid-nogutter grid-show">
+              <div className="grid grid-nogutter grid-show">
                 <div className="col">
                   <DefaultButton /*flat="true" fullWidth="true"*/ small icon={<Icon src="add"/>}>Click Me</DefaultButton>
                 </div>
